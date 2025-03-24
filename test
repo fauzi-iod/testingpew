@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GA4/GTM Recruitment Test</title>
+</head>
+<body>
+    <h1>GA4/GTM Recruitment Test</h1>
+
+    <p>This is a simple website for testing GA4, GTM, and Data Layer implementation.</p>
+
+    <button onclick="alert('Button 1 Clicked!')">Button 1 (Track Click)</button><br><br>
+    <button onclick="alert('Button 2 Clicked!')">Button 2 (Track Click)</button><br><br>
+
+    <form id="contactForm">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+        <button type="submit" onclick="alert('Form Submitted!')">Submit Form</button>
+    </form>
+    <br>
+    <a href="https://example.com" target="_blank" onclick="alert('Link Clicked!')">External Link</a>
+
+</body>
+</html>
